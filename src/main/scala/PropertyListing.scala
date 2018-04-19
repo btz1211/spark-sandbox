@@ -1,0 +1,12 @@
+case class PropertyListing(street : String,
+                           city : String,
+                           zip : Int,
+                           state : String,
+                           beds : Int,
+                           baths: Int,
+                           sq_ft : Int,
+                           listing_type : String,
+                           sale_date : String,
+                           price : Double,
+                           latitude : Double,
+                           longitude : Double) {}
